@@ -1,0 +1,9 @@
+---
+title: "Resume"
+format: html
+editor: visual
+---
+
+### 
+
+[**Click here to view my resume**](resume.pdf)

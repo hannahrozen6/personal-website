@@ -1,0 +1,25 @@
+---
+title: "My Projects"
+format: html
+editor: visual
+---
+
+### Portfolio
+
+#### ASA DataFest at UCLA
+
+- **Context:** Participated in UCLA's annual 48-hour data hackathon comptetion, analyzing a rich, complex dataset to gain meaningful social insights.
+- **Tools & Technologies:** R, `tidyverse`, `ggplot2`.
+- **Outcome & Impact:** Cleaned and visualized a dataset containing millions of observations, presenting our key findings on limitations in access to emergency care to a panel of judges.
+
+[Click here to view my DataFest presentation!](datafestpresentation.pdf)
+
+#### Stats 20 Project 2
+
+- **Context:** For this project, I created a reproducible Quarto Presentation, consisting of a statistical analysis of a dataset on ICE detention trends, including visualizations and summary statistics to reveal insights about the population trends over time.
+- **Tools & Technologies:** R, `ggplot2`.
+- **Outcome & Impact:** I presented my findings in a video presentation communicating insights effectively.
+
+View my Project 2 presentation below!
+
+{{< video Hannah_Rozenbaum_Project_2.mp4 >}}

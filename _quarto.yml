@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Hannah Rozenbaum"
+  navbar:
+    background: primary
+    search: false
+    left:
+      - href: index.qmd
+        text: "Home"
+      - href: projects.qmd
+        text: "Portfolio"
+      - href: resume.qmd
+        text: "Resume"
+      - href: contact.qmd
+        text: "Contact"
+
+format:
+  html:
+    theme: sandstone
+    toc: true
