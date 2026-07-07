@@ -1,4 +1,14 @@
-.Rproj.user
+# Quarto / Netlify Build Outputs
+/_site/
+/contact_files/
+/resume_files/
+/.quarto/
+
+# R specific files
 .Rhistory
 .RData
 .Ruserdata
+.Rproj.user/
+
+# OS specific files
+.DS_Store
