@@ -151,6 +151,25 @@ ul.task-list li input[type="checkbox"] {
 <li>Passions &amp; Career Interests: I am also deeply passionate about teaching and mentorship! I tutor a high school student in math and chemistry and will teach coding this summer. I am interested in the intersection of data science and education.</li>
 <li>Hobbies: I love outdoor activities like hiking, skiing, paddleboarding, and kayaking.</li>
 </ul>
+<style>
+.about-image {
+  object-fit: cover;
+  /* Shift the photo content down/up inside the circle */
+  object-position: 45% 45%; 
+}
+/* 2. Target the container (the circular border) to define the boundary */
+.jolla .about-image-container {
+  overflow: hidden; /* CRUCIAL: Keeps the zoomed image trapped in the circle! */
+  box-shadow: 0 0 15px rgba(0,0,0,0.2); /* Optional: Adds a soft shadow for depth */
+}
+/* 3. Apply the inner zoom only within the container context */
+.jolla .about-image-container img {
+  /* Increase the size to zoom the face in the frame.
+     Change 1.6 to 1.7 or 1.8 for tighter zoom, 1.4 for wider zoom. */
+  transform: scale(5.8); 
+  transform-origin: center top; /* Keeps the top of your head from being cut off */
+}
+</style>
 
 
 </section>
