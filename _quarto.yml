@@ -19,7 +19,7 @@ website:
 
 format:
   html:
-    theme: sandstone
+    theme: lux
     toc: true
     
 execute:
