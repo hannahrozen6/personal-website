@@ -12,7 +12,7 @@ about:
       href: https://www.linkedin.com/in/hannah-rozenbaum-764526335/  
     - icon: file-earmark-pdf
       text: Download Resume
-      href: resume.pdf                                  
+      href: assets/resume.pdf                                  
 ---
 
 ------------------------------------------------------------------------
