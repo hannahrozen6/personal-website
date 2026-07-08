@@ -12,7 +12,7 @@ editor: visual
 - **Tools & Technologies:** R, `tidyverse`, `ggplot2`.
 - **Outcome & Impact:** Cleaned and visualized a dataset containing millions of observations, presenting our key findings on limitations in access to emergency care to a panel of judges.
 
-[Click here to view my DataFest presentation!](datafestpresentation.pdf)
+[Click here to view my DataFest presentation!](assets/datafestpresentation.pdf)
 
 #### Stats 20 Project 2
 
@@ -22,4 +22,4 @@ editor: visual
 
 View my Project 2 presentation below!
 
-{{< video Hannah_Rozenbaum_Project_2.mp4 >}}
+{{< video assets/Hannah_Rozenbaum_Project_2.mp4 >}}
