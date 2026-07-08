@@ -2,7 +2,7 @@
 title: "Hannah Rozenbaum"
 about:
   template: jolla
-  image: headshot.jpg
+  image: assets/headshot.jpg
   links:
     - icon: envelope
       text: Email
