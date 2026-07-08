@@ -19,12 +19,12 @@ about:
 
 ## Welcome to my website!
 
-I am a rising junior at UCLA studying Statistics & Data Science from Applied Mathematics.
+I am a rising junior at UCLA studying Statistics & Data Science.
 
 ### About Me
 
 Hi! I'm Hannah! A little about me:
 
-- Background: I'm from the suburbs of Philadelphia, Pennsylvania. I attended Abington Friends High School.
+- Background: I'm from the suburbs of Philadelphia, Pennsylvania. 
+- Passions & Career Interests: I am also deeply passionate about teaching and mentorship! I tutor a high school student in math and chemistry and will teach coding this summer. I am interested in the intersection of data science and education.
 - Hobbies: I love outdoor activities like hiking, skiing, paddleboarding, and kayaking.
-- Passions & Career Interests: I am deeply passionate about teaching and mentorship! I tutor a high school student in math and chemistry and will teach coding this summer. I am interested in the intersection of data science and education.

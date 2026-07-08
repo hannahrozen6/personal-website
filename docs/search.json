@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html#welcome-to-my-website",
+    "href": "index.html#welcome-to-my-website",
+    "title": "Hannah Rozenbaum",
+    "section": "Welcome to my website!",
+    "text": "Welcome to my website!\nI am a rising junior at UCLA studying Statistics & Data Science.\n\nAbout Me\nHi! I’m Hannah! A little about me:\n\nBackground: I’m from the suburbs of Philadelphia, Pennsylvania.\nPassions & Career Interests: I am also deeply passionate about teaching and mentorship! I tutor a high school student in math and chemistry and will teach coding this summer. I am interested in the intersection of data science and education.\nHobbies: I love outdoor activities like hiking, skiing, paddleboarding, and kayaking."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "My Projects",
+    "section": "",
+    "text": "Portfolio\n\nASA DataFest at UCLA\n\nContext: Participated in UCLA’s annual 48-hour data hackathon comptetion, analyzing a rich, complex dataset to gain meaningful social insights.\nTools & Technologies: R, tidyverse, ggplot2.\nOutcome & Impact: Cleaned and visualized a dataset containing millions of observations, presenting our key findings on limitations in access to emergency care to a panel of judges.\n\nClick here to view my DataFest presentation!\n\n\nStats 20 Project 2\n\nContext: For this project, I created a reproducible Quarto Presentation, consisting of a statistical analysis of a dataset on ICE detention trends, including visualizations and summary statistics to reveal insights about the population trends over time.\nTools & Technologies: R, ggplot2.\nOutcome & Impact: I presented my findings in a video presentation communicating insights effectively.\n\nView my Project 2 presentation below!"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Contact Information\nContact me via email! hannahrozen@ucla.edu"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Click here to view my resume"
+  }
+]
