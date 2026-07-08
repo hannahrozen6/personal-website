@@ -9,6 +9,7 @@
 .RData
 .Ruserdata
 .Rproj.user/
+.Rapp.history
 
 # OS specific files
 .DS_Store
