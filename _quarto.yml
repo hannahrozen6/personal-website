@@ -21,3 +21,6 @@ format:
   html:
     theme: sandstone
     toc: true
+    
+execute:
+  freeze: auto
