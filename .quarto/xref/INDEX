@@ -10,5 +10,11 @@
   },
   "projects.qmd": {
     "projects.html": "d0c6b5da"
+  },
+  "essays.qmd": {
+    "essays.html": "2814709f"
+  },
+  "data-vis-and-creative-work.qmd": {
+    "data-vis-and-creative-work.html": "72716a6c"
   }
 }

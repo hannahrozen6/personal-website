@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>My Projects – Hannah Rozenbaum</title>
+<title>Technical Projects – Hannah Rozenbaum</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -42,9 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-68e465fdcf2676046f28bd7c3881ccb4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/videojs/video.min.js"></script>
-<link href="site_libs/quarto-contrib/videojs/video-js.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-0911eb4bd83c6576a0240936227a904c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -96,10 +123,25 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" aria-current="page"> 
-<span class="menu-text">Portfolio</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-portfolio" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Portfolio</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-portfolio">    
+        <li>
+    <a class="dropdown-item" href="./projects.html">
+ <span class="dropdown-text">Technical Projects</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./essays.html">
+ <span class="dropdown-text">Socio-Technical Risk Assessments</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./data-vis-and-creative-work.html">
+ <span class="dropdown-text">Data Visualization &amp; Creative Work</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./resume.html"> 
 <span class="menu-text">Resume</span></a>
@@ -124,7 +166,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#portfolio" id="toc-portfolio" class="nav-link active" data-scroll-target="#portfolio">Portfolio</a></li>
+  <li><a href="#investigating-the-social-consequences-of-youtube-watch-time-optimization" id="toc-investigating-the-social-consequences-of-youtube-watch-time-optimization" class="nav-link active" data-scroll-target="#investigating-the-social-consequences-of-youtube-watch-time-optimization">Investigating the Social Consequences of YouTube Watch-Time Optimization</a></li>
+  <li><a href="#finding-the-best-schools-for-your-money-a-data-driven-analysis-of-college-roi" id="toc-finding-the-best-schools-for-your-money-a-data-driven-analysis-of-college-roi" class="nav-link" data-scroll-target="#finding-the-best-schools-for-your-money-a-data-driven-analysis-of-college-roi">Finding the Best Schools for Your Money: A Data-Driven Analysis of College ROI</a></li>
+  <li><a href="#project-title-comm-188c-homework-2-and-3-merged-same-data-keep" id="toc-project-title-comm-188c-homework-2-and-3-merged-same-data-keep" class="nav-link" data-scroll-target="#project-title-comm-188c-homework-2-and-3-merged-same-data-keep">Project Title : Comm 188C Homework 2 and 3 merged (same data) (KEEP)</a></li>
+  <li><a href="#targeting-the-0.1-mitigating-emergency-department-over-utilization" id="toc-targeting-the-0.1-mitigating-emergency-department-over-utilization" class="nav-link" data-scroll-target="#targeting-the-0.1-mitigating-emergency-department-over-utilization">Targeting the 0.1%: Mitigating Emergency Department Over-Utilization</a></li>
   </ul>
 </nav>
     </div>
@@ -133,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">My Projects</h1>
+<h1 class="title">Technical Projects</h1>
 </div>
 
 
@@ -150,29 +195,116 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="portfolio" class="level3">
-<h3 class="anchored" data-anchor-id="portfolio">Portfolio</h3>
-<section id="asa-datafest-at-ucla" class="level4">
-<h4 class="anchored" data-anchor-id="asa-datafest-at-ucla">ASA DataFest at UCLA</h4>
+<hr>
+<section id="investigating-the-social-consequences-of-youtube-watch-time-optimization" class="level3">
+<h3 class="anchored" data-anchor-id="investigating-the-social-consequences-of-youtube-watch-time-optimization">Investigating the Social Consequences of YouTube Watch-Time Optimization</h3>
 <ul>
-<li><strong>Context:</strong> Participated in UCLA’s annual 48-hour data hackathon comptetion, analyzing a rich, complex dataset to gain meaningful social insights.</li>
-<li><strong>Tools &amp; Technologies:</strong> R, <code>tidyverse</code>, <code>ggplot2</code>.</li>
-<li><strong>Outcome &amp; Impact:</strong> Cleaned and visualized a dataset containing millions of observations, presenting our key findings on limitations in access to emergency care to a panel of judges.</li>
+<li><p><strong>Context:</strong> Analyzed a large-scale YouTube dataset (1.5 GB; ~600,000 videos) to examine how watch-time optimization influences exposure to health and political content. Created a focused subset of 22,193 videos by filtering for 22 health and political keywords associated with topics particularly vulnerable to misinformation and polarization. Investigated whether engagement-driven recommendation patterns sacrifice viewpoint diversity and contribute to informational “rabbit holes.”</p></li>
+<li><p><strong>Languages &amp; Tools:</strong> Python - <code>pandas</code> &amp; <code>numpy</code> for high-volume data engineering, <code>scikit-learn</code> for feature scaling and K-Means clustering, <code>bertopic</code> for semantic modeling, and <code>matplotlib</code> &amp; <code>seaborn</code> for visualizations</p></li>
+<li><p><strong>Methodologies:</strong> Natural Language Processing (NLP), Unsupervised Machine Learning (Clustering &amp; Topic Modeling), and Information Theory (Shannon Entropy)</p></li>
+<li><p><strong>My Contribution &amp; Impact:</strong> I built and executed a machine learning and text analytics framework:</p>
+<ol type="1">
+<li><strong>Behavioral Clustering:</strong> Engineered data features combining log-transformed duration and engagement metrics (views, likes, comments) to run a K-Means algorithm (<span class="math inline">\(k=3\)</span>). Identified three clear algorithmic archetypes: <em>Low-Impact Snippet</em>, <em>Factual Rundown</em> (dominating with 94% of total watch-time), and <em>Rabbit Hole Perpetrator</em> (averaging an immersive 25+ minute retention depth).</li>
+<li><strong>Topic Modeling &amp; Polarization Analysis:</strong> Coded a text-cleaning pipeline to extract custom-filtered auto-generated transcripts. Deployed BERTopic contextual embeddings to categorize dense ideological themes within the Rabbit Hole Perpetrator cluster.</li>
+<li><strong>Quantifying Viewpoint Diversity:</strong> Applied the Shannon Information-Theory Entropy formula to compute a Topic Entropy score of 2.80 and an evenness index of 0.84 within the long-form deep-dive cluster. Empirically demonstrated that despite topic distribution, the broader ecosystem isolates users into highly concentrated narrative silos.</li>
+</ol></li>
 </ul>
-<p><a href="assets/datafestpresentation.pdf">Click here to view my DataFest presentation!</a></p>
+edit doc: read over and remove weird gap and group #
+<p>
+<a class="btn btn-primary" href="assets/comm-final-report.pdf" target="_blank" role="button"> <i class="bi bi-file-earmark-pdf"></i> View Research Report (PDF) </a>
+</p>
+<hr>
 </section>
-<section id="stats-20-project-2" class="level4">
-<h4 class="anchored" data-anchor-id="stats-20-project-2">Stats 20 Project 2</h4>
+<section id="finding-the-best-schools-for-your-money-a-data-driven-analysis-of-college-roi" class="level3">
+<h3 class="anchored" data-anchor-id="finding-the-best-schools-for-your-money-a-data-driven-analysis-of-college-roi">Finding the Best Schools for Your Money: A Data-Driven Analysis of College ROI</h3>
 <ul>
-<li><strong>Context:</strong> For this project, I created a reproducible Quarto Presentation, consisting of a statistical analysis of a dataset on ICE detention trends, including visualizations and summary statistics to reveal insights about the population trends over time.</li>
-<li><strong>Tools &amp; Technologies:</strong> R, <code>ggplot2</code>.</li>
-<li><strong>Outcome &amp; Impact:</strong> I presented my findings in a video presentation communicating insights effectively.</li>
+<li><p><strong>Context:</strong> Compiled and analyzed a comprehensive dataset combining institutional demographic and financial data with state economic contexts. Evaluated short- and long-term financial returns across 1,173 four-year U.S. universities and examined the impact of regional employment rate on college return on investment (ROI).</p></li>
+<li><p><strong>Languages &amp; Tools:</strong> R — <code>tidyverse</code> (<code>dplyr</code> for data manipulation &amp; <code>ggplot2</code> for scatterplot regression visualization), <code>knitr</code> for LaTeX summary tables, and Quarto for reproducible reporting</p></li>
+<li><p><strong>Methodologies:</strong> Long-Term Financial Metric Modeling, Macro-Environmental Control Analysis, and Bivariate Ordinary Least Squares Regression</p></li>
+<li><p><strong>Outcome &amp; Impact:</strong> Developed a multi-tier financial framework calculating 1-year baseline payback periods, 5-year and 10-year wage premiums, and 5-year cumulative returns on investment. Uncovered a stark contrast in the types of institutions at opposite ends of the financial returns gap. Affordable public institutions achieved the highest cumulative returns on investment, whereas expensive private liberal arts colleges in the bottom tier experienced negative early-career returns. Using regression analysis, I found that ROI is largely independent of the state employment rate and is much more likely to be impacted by institutional traits.</p></li>
 </ul>
-<p>View my Project 2 presentation below!</p>
-<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-big-play-centered vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="assets/Hannah_Rozenbaum_Project_2.mp4"></video></div>
+<p>
+<a class="btn btn-primary" href="assets/college-roi-project.pdf" target="_blank" role="button"> <i class="bi bi-file-earmark-pdf"></i> View College ROI Analysis (PDF) </a>
+</p>
+<hr>
+</section>
+<section id="project-title-comm-188c-homework-2-and-3-merged-same-data-keep" class="level3">
+<h3 class="anchored" data-anchor-id="project-title-comm-188c-homework-2-and-3-merged-same-data-keep">Project Title : Comm 188C Homework 2 and 3 merged (same data) (KEEP)</h3>
+<ul>
+<li><p><strong>Context:</strong></p></li>
+<li><p><strong>Languages &amp; Tools:</strong> Python - <code>pandas</code>, <code>numpy</code>, <code>scikit-learn</code> (<code>TfidfVectorizer</code>, <code>KMeans</code>, <code>RandomForestClassifier</code>, <code>GridSearchCV</code>, and verification metrics), <code>scipy</code></p></li>
+<li><p><strong>Methodologies:</strong></p></li>
+<li><p><strong>Outcome &amp; Impact:</strong></p></li>
+</ul>
+<p>
+<a class="btn btn-primary" href="assets/FILE NAME" target="_blank" role="button"> <i class="bi bi-file-earmark-pdf"></i> ADDBUTTONLABEL </a>
+</p>
+<p>The only real limitation of this project is the <strong>dataset size</strong> (199 news articles). While perfect for a class assignment, ML models can overfit easily on small samples.</p>
+<p>If you want to turn this into a truly high-tier portfolio piece, try downloading a larger public dataset (like the <em>AG News Classification Dataset</em> or a larger Kaggle news dataset with thousands of rows) and run your exact same code on it. If your SBERT pipeline still hits 90%+ accuracy on a massive dataset, you have an bulletproof case study!</p>
+<p>Would you like help adapting your code to a larger dataset, or do you want to work on writing the portfolio markdown file for this next?</p>
+<p>Here is a blueprint for how you can structure this unified case study for a personal website, GitHub repository, or portfolio.</p>
+<hr>
+<p>📂 Portfolio Title Idea</p>
+<p><strong>Comparative Benchmark Study: Modern Transformers vs.&nbsp;Traditional Statistical NLP for Short-Form Text</strong></p>
+<hr>
+<p>📝 The Framework (How to Structure the Post)</p>
+<ol type="1">
+<li>Introduction &amp; Executive Summary</li>
+</ol>
+<p>Start with a high-level overview of what you did and the ultimate takeaway.</p>
+<ul>
+<li><p><strong>The Mission:</strong> Evaluate how traditional statistical NLP methods (TF-IDF) hold up against modern deep learning architectures (SBERT / Sentence Transformers) when processing short, low-context text data (news headlines).</p></li>
+<li><p><strong>The Data:</strong> 199 news articles containing titles and high-level topics.</p></li>
+<li><p><strong>The Big Takeaway:</strong> Across both supervised classification and unsupervised clustering, deep learning dense embeddings systematically crushed sparse keyword-matching, raising classification accuracy from <strong>75% to 95%</strong>, and unsupervised cluster mapping accuracy from <strong>45% to 94%</strong>.</p></li>
+</ul>
+<ol start="2" type="1">
+<li>Paradigm 1: Unsupervised Learning (Topic Discovery via K-Means)</li>
+</ol>
+<p>Explain the clustering experiment to show how you handle unlabeled data.</p>
+<ul>
+<li><p><strong>The Approach:</strong> You used <strong>K-Means Clustering</strong> (<span class="math inline">\(K=4\)</span>) to partition raw article titles without letting the models see the actual topics.</p></li>
+<li><p><strong>The Hurdle:</strong> Traditional TF-IDF struggled heavily because headlines are too short to share exact keyword matches, forcing K-Means to dump almost everything into a single massive cluster (yielding a low <strong>45% mapped accuracy</strong>).</p></li>
+<li><p><strong>The Solution:</strong> SBERT captured the underlying semantic context, enabling clean cluster separations and achieving an outstanding <strong>94% mapped accuracy</strong>.</p></li>
+<li><p><em>Include your side-by-side performance metrics table here!</em></p></li>
+</ul>
+<ol start="3" type="1">
+<li>Paradigm 2: Supervised Learning (Predictive Modeling via Random Forests)</li>
+</ol>
+<p>Transition into your predictive modeling phase to show how you handle labeled data.</p>
+<ul>
+<li><p><strong>The Approach:</strong> You built a machine learning pipeline featuring <strong>Stratified Train-Test Splitting</strong>, <strong>5-Fold Cross-Validation</strong>, and <strong>Hyperparameter Tuning (GridSearch)</strong> to predict article topics using a Random Forest Classifier.</p></li>
+<li><p><strong>The Engineering Touch:</strong> Highlight your advanced feature selection strategy—combining <strong>Chi-Square filtering</strong> with <strong>Forward Sequential Feature Selection</strong> to aggressively isolate high-impact tokens from the high-dimensional TF-IDF space.</p></li>
+<li><p><strong>The Result:</strong> Even with rigorous feature engineering, TF-IDF topped out at a <strong>75% F1-score</strong> because it couldn’t capture word relationships. SBERT effortlessly hit a <strong>95% F1-score</strong> by natively leveraging contextual deep learning weights.</p></li>
+</ul>
+<ol start="4" type="1">
+<li>Key Engineering Insights &amp; Conclusions</li>
+</ol>
+<p>End with a strong, professional conclusion that highlights your conceptual maturity.</p>
+<ul>
+<li><p><strong>Sparsity vs.&nbsp;Density:</strong> Short-form text inherently breaks keyword-dependent models like TF-IDF due to severe data sparsity. Dense embeddings are mandatory for real-world semantic search or short-text routing.</p></li>
+<li><p><strong>Production Readiness:</strong> While SBERT delivers elite accuracy, it requires higher computational overhead. This study serves as a framework for weighing the exact accuracy-versus-compute tradeoffs required in production environments.</p></li>
+</ul>
+<p>GitHub repository containing: 1. <code>README.md</code> 2. A folder named <code>/notebooks</code> containing your two cleanly commented CoLab notebooks.</p>
+<hr>
+</section>
+<section id="targeting-the-0.1-mitigating-emergency-department-over-utilization" class="level3">
+<h3 class="anchored" data-anchor-id="targeting-the-0.1-mitigating-emergency-department-over-utilization">Targeting the 0.1%: Mitigating Emergency Department Over-Utilization</h3>
+<ul>
+<li><p><strong>Context:</strong> Collaborated in a 48-hour data hackathon to analyze a large-scale regional healthcare dataset representing millions of patient records. Our team targeted emergency department “super-utilizers,” identifying that the top 1000 patients (0.1% of the patient population) accounted for 10.5% of all emergency department visits.</p></li>
+<li><p><strong>Languages &amp; Tools:</strong> R - <code>data.table</code> for memory-optimized loading, <code>tidyverse</code> (<code>dplyr</code> for data wrangling, <code>tidyr</code> for data reshaping, and <code>ggplot2</code> for data visualization)</p></li>
+<li><p><strong>Methodologies:</strong> Data Preprocessing and Statistical Significance Testing (Two-Sample T-Test)</p></li>
+<li><p><strong>My Contribution &amp; Impact:</strong> I engineered a data pipeline to classify patients into geographic regions (corridors) based on FIPS codes. I then coded two primary analytical components:</p>
+<ol type="1">
+<li><strong>The ‘Medical Commute’ Analysis:</strong> Visualized the percentage of clinic visits occurring outside patients’ home regions and graphed the reliance on the emergency department by corridor. After comparing, I concluded that a lack of local clinic access correlates with emergency room dependency.</li>
+<li><strong>Statistical Significance Testing:</strong> Conducted a Two-Sample T-Test confirming a statistically significant difference (<span class="math inline">\(p = 0.0185\)</span>) in emergency reliance scores between Central and Non-Central patient cohorts, providing our team with the empirical support to propose expanding targeted clinic infrastructure to vulnerable corridors.</li>
+</ol></li>
+</ul>
+<p>
+<a class="btn btn-primary" href="assets/datafest-presentation.pdf" role="button"> <i class="bi bi-file-earmark-pdf"></i> View DataFest Presentation (PDF) </a>
+</p>
+<hr>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -577,7 +709,6 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
-<script>videojs(video_shortcode_videojs_video1);</script>
 
 
 

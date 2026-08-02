@@ -12,8 +12,14 @@ website:
     left:
       - href: index.qmd
         text: "Home"
-      - href: projects.qmd
-        text: "Portfolio"
+      - text: "Portfolio"
+        menu:
+          - href: projects.qmd
+            text: "Technical Projects"
+          - href: essays.qmd
+            text: "Socio-Technical Risk Assessments"
+          - href: data-vis-and-creative-work.qmd
+            text: "Data Visualization & Creative Work"
       - href: resume.qmd
         text: "Resume"
       - href: contact.qmd
@@ -21,7 +27,9 @@ website:
 
 format:
   html:
-    theme: lux
+    theme: 
+      - lux
+      - styles.css
     toc: true
     
 execute:

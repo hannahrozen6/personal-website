@@ -1,0 +1,42 @@
+/*-- scss:rules --*/
+
+strong, b {
+    font-weight: 700 !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+    text-shadow: 0.1px 0px 0px currentColor, -0.1px 0px 0px currentColor; /* Force physical thickness */
+}
+
+/* Force the container to stop clipping your name */
+.navbar-brand, 
+.navbar-brand-container {
+  max-width: max-content !important;
+  min-width: max-content !important;
+  width: auto !important;
+}
+
+/* Ensure the text itself doesn't truncate or use ellipses */
+.navbar-brand span, 
+.navbar-title {
+  text-overflow: unset !important;
+  overflow: visible !important;
+  white-space: nowrap !important;
+}
+
+/* Slightly shrink the menu links so they don't fight your name for space */
+.navbar-nav .nav-link {
+  font-size: 0.85rem !important;
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+
+/* This will ONLY apply when we explicitly use the .centered-list class */
+.centered-list {
+  text-align: center !important;
+  list-style-position: inside !important;
+  padding-left: 0 !important;
+}
+
+.centered-list li {
+  text-indent: 0 !important;
+  margin-bottom: 0.75rem;
+}

@@ -4,6 +4,22 @@ format: html
 editor: visual
 ---
 
+## Get in Touch
+
+Whether you want to discuss data science, tutoring, or just say hello, feel free to reach out! I'd love to connect with you.
+
+------------------------------------------------------------------------
+
 ### Contact Information
 
-Contact me via email! [hannahrozen\@ucla.edu](mailto:hannahrozen@ucla.edu)
+<ul class="list-unstyled" style="padding-left: 0; line-height: 2.2;">
+
+<li><i class="bi bi-envelope-fill text-primary" style="margin-right: 10px;"></i> <strong>Email:</strong> <a href="mailto:hannahrozen@ucla.edu">hannahrozen\@ucla.edu</a></li>
+
+<li><i class="bi bi-linkedin text-primary" style="margin-right: 10px;"></i> <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/hannah-rozenbaum-764526335/" target="_blank">Connect with me on LinkedIn</a></li>
+
+</ul>
+
+------------------------------------------------------------------------
+
+I am split between the Philadelphia area during the summers and the Westwood, Los Angeles during the academic year. I typically respond to emails within 24 hours and look forward to hearing from you!

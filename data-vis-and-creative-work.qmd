@@ -1,0 +1,16 @@
+---
+title: "Data Visualization & Creative Work"
+editor: visual
+---
+
+EDIT \### Observational Ethnography & Data Portrait (UCLA Cluster 10)
+
+Context: Designed and executed a localized, 7.5-hour observational research study mapping spatial utilization, social behaviors, and environmental dynamics within university communal infrastructure. Modeled data collection parameters to track human behavior patterns while controlling for external sociopolitical and structural anomalies.
+
+Languages & Tools: Manual Field Ethnography, Comparative Categorical Modeling, and Du Bois-Inspired Data Portraiture Frameworks, Google Sheets (graphing)
+
+Methodologies: Observational Research Design, Mitigation of Volunteer & Convenience Bias, Multitasking Categorization Architecture, and Psychological Color-Mapping.
+
+Outcome & Impact: Constructed a multi-variable visual portrait demonstrating that communal atmosphere was driven by localized group interactions rather than standard temporal baselines. Navigated complex data-structurization challenges regarding human multitasking to map distinct environmental correlations—revealing an 84% positive mood rate among active occupants. Delivered spatial layout optimization recommendations to university administration to better align institutional square footage with real-world student utility.
+
+<p><a class="btn btn-primary" href="assets/FILE NAME" target="_blank" role="button"> <i class="bi bi-file-earmark-pdf"></i> ADDBUTTONLABEL </a></p>

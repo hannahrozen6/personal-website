@@ -1,0 +1,26 @@
+---
+title: "Socio-Technical Risk Assessments"
+editor: visual
+---
+
+### Project Title / Case Study Name]
+
+* **System Audited:** [e.g., Amazon Rekognition Computer Vision Frameworks / GitHub Copilot & OpenAI Codex]  
+
+* **Core Technologies Evaluated:** [e.g., Convolutional Neural Networks, Transformer Architectures, NLP Lifecycles]
+
+* **Executive Summary:** A punchy 2-3 sentence overview of the project context, what prompted the audit, and the high-level focus of your investigation.
+
+* Identified Vulnerabilities & Risks
+  * **Technical System Flaw:** [Describe the specific programmatic, algorithmic, or data-level failure. e.g., Vector unweighted correlation mappings resulted in high misclassification rates, or a 68.6% accuracy floor for specific demographic subgroups.]
+  * **Socio-Economic & Lifecycle Impact:** [Describe the human or operational cost. e.g., Operational trade-offs between user data privacy and monetization, or automated biometric misidentifications driving wrongful legal convictions.]
+  * **Hidden Infrastructure Costs:** [If applicable, mention labor or environmental impacts. e.g., Massive compute demands on fresh water/electricity, or reliance on hidden, underpaid contract-labor annotation pipelines.]
+
+* Governance & Policy Recommendations
+  * **Algorithmic Guardrails:** [Your technical fix. e.g., Implementing rigid stochastic filtering boundaries or shifting to containerized local LLM deployments to preserve data privacy.]
+  * **Human-in-the-Loop Frameworks:** [Your operational/policy fix. e.g., Creating alternative human-centric product governance models to replace traditional engagement-driven loops.]
+  * **Precedent & Advocacy Integration:** [Your structural/social fix. e.g., Leveraging historical administrative mobilization precedents to implement strict procurement bans.]
+
+<p><a class="btn btn-primary" href="assets/github-assesment.pdf" target="_blank" role="button"> <i class="bi bi-file-earmark-pdf"></i> View Full Assesment (PDF) </a></p>
+
+------------------------------------------------------------------------
