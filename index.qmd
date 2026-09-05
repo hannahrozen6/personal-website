@@ -12,78 +12,45 @@ about:
       href: https://www.linkedin.com/in/hannah-rozenbaum-764526335/  
     - icon: file-earmark-pdf
       text: Download Resume
-      href: assets/resume.pdf                                  
+      href: assets/resume.pdf     
 ---
 
-------------------------------------------------------------------------
-
-## Welcome to my website!
-
-Hi, I'm Hannah! I am a rising junior at UCLA studying Statistics & Data Science.
-
-## About Me
-
-::: {.centered-list}
-* **Background:** I'm from the suburbs of Philadelphia, Pennsylvania. 
-* **Passions & Career Interests:** I am also deeply passionate about teaching and mentorship! I tutor a high school student in math and chemistry and will teach coding this summer. I am interested in the intersection of data science and education.
-* **Hobbies:** I love outdoor activities like hiking, skiing, and paddleboarding. I also spend my free time exploring new places; I often walk a few miles to discover new foodie spots, hotels, and parks in Los Angeles. When I'm not outside, I enjoy solving NYT games, journaling, and curating my Spotify playlists.
-:::
-
-
-That is a fantastic, welcoming foundation! It has great personality and highlights your real-world passions for teaching and mentorship.
-
-Since you are a **Statistics & Data Science** major, we want to make sure your technical portfolio feels seamlessly connected to this personal bio. We can keep your exact voice, hobbies, and roots, but upgrade the framing to show how your teaching background, your UCLA coursework, and your data science projects all tell one cohesive story.
-
-Here is an upgraded, beautifully formatted version of your exact text that perfectly blends your personality with your technical edge:
-
----
-
-## Welcome to my website!
+# Welcome to my website!
 
 Hi, I'm Hannah! I am a rising junior at UCLA studying **Statistics & Data Science**.
 
-I am driven by a fascination with how data can be used to solve complex real-world problems, audit automated systems, and tell impactful human stories. Whether I am cleaning messy real-world databases, deploying local AI models, or teaching foundational concepts to the next generation, I view data as a powerful tool for community impact and education.
+My professional interest lies in using data to solve complex social issues. Whether I am cleaning and analyzing messy real-world databases, deploying and auditing local AI models, or teaching foundational concepts to the next generation, I view data as a powerful tool for community impact and education.
 
----
+------------------------------------------------------------------------
 
-## About Me
+# About Me
 
-### 💡 Passions & Career Interests
+### Passions & Career Interests
 
-* **Teaching & Mentorship:** I am deeply passionate about education! I currently tutor high school students in math and chemistry and will be teaching coding this summer.
-* **The Data-Education Intersection:** Professionally, I am captivated by how data science intersects with learning ecosystems. This ranges from engineering educational analytics models (like benchmarking university ROI pipelines) to auditing how rapid AI adoption shapes the critical thinking skills of student developers.
+- **Data Science for Social Good:** Inspired by my coursework at UCLA, I believe statistical tools can solve complex human problems. Whether evaluating models for algorithmic fairness, informing evidence-based public policy, or building human-first systems, I aim to leverage machine learning and causal inference to create a measurable, positive impact on society.
+- **Data Storytelling:** Beyond predictive modeling, I believe data is a powerful narrative tool. While qualitative archives already capture human experience, applying quantitative modeling allows analysts to derive clear insights from a massive volume of sources. My recent independent project applies NLP to oral histories to illuminate complex testimonies and preserve individual voices.
+- **Teaching & Mentorship:** I am deeply passionate about education! I tutor SAT prep, precalculus, and chemistry, and worked as an instructor at Lavner STEM Camps teaching Python, robotics with engineering and coding, graphic design, and physics/chemistry labs.
+- **The Data-Education Intersection:** Building on my experience teaching, I am intrigued by how data science intersects with modern learning. I actively audit digital learning environments, from investigating how engagement-driven algorithms shape viewpoint diversity to analyzing how rapid AI adoption impacts the critical thinking skills of student developers.
 
+------------------------------------------------------------------------
 
+### ️ Academic & Technical Focus
 
-### 🛠️ Academic & Technical Focus
+At UCLA, my path covers rigorous statistical and mathematical theory, advanced software training, socio-technical evaluation, and applied execution.
 
-* **Socio-Technical Systems:** At UCLA, my technical path is heavily informed by an interdisciplinary foundation in data governance, algorithmic fairness, and historical systems auditing.
+------------------------------------------------------------------------
 
+### Hobbies & Life Outside Data Science
 
-* **Data Storytelling:** Beyond predictive modeling, I believe data is a narrative tool. I actively look for ways to couple quantitative modeling with qualitative archives, such as utilizing oral histories to challenge numerical erasures and preserve survivor testimonies.
-
-
-
-### 🌲 Hobbies & Life Outside the Lab
-
-* **The Great Outdoors:** I love staying active outside, whether I'm hiking, skiing, or paddleboarding.
-* **Urban Exploration:** I spend a lot of my free time exploring Los Angeles; I often walk a few miles just to discover new foodie spots, historic hotels, and parks.
-* **Unwinding:** When I'm staying inside, you can usually find me solving the daily NYT games, journaling, or meticulously curating my Spotify playlists.
-
----
-
-### Why this works perfectly for your site:
-
-* **Keeps Your Original Charm:** Your personality, Philadelphia roots, and love for hiking/foodie walks stay completely intact.
-* **Creates a Narrative Bridge:** By placing your summer coding teacher role right next to your interest in data science and AI ethics, you show recruiters that you don't just sit behind a screen—you understand how technology impacts actual people and learners.
-
-
-
-Now that your "About Me" tab is looking beautiful, how would you like to handle the navigation layout for your projects page? We can set them up chronologically, or group them into "Data Engineering" and "AI Policy & Governance" tabs!
+- **The Great Outdoors:** I love staying active outside, whether hiking, skiing, paddleboarding, or playing tennis.
+- **Urban Exploration:** I spend a lot of my free time exploring Los Angeles, often walking a few miles to discover local foodie spots, historic hotels, and parks.
+- **Unwinding:** When I'm not adventuring outside, you can usually find me solving the daily NYT games, crafting, running my Depop shop, or curating Spotify playlists.
 
 
 
 
+
+```{=html}
 <style>
 .about-image {
   object-fit: cover;
@@ -105,4 +72,4 @@ Now that your "About Me" tab is looking beautiful, how would you like to handle 
   transform-origin: center top; /* Keeps the top of your head from being cut off */
 }
 </style>
-
+```
