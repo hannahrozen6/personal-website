@@ -168,7 +168,6 @@ window.Quarto = {
   <ul>
   <li><a href="#investigating-the-social-consequences-of-youtube-watch-time-optimization" id="toc-investigating-the-social-consequences-of-youtube-watch-time-optimization" class="nav-link active" data-scroll-target="#investigating-the-social-consequences-of-youtube-watch-time-optimization">Investigating the Social Consequences of YouTube Watch-Time Optimization</a></li>
   <li><a href="#finding-the-best-schools-for-your-money-a-data-driven-analysis-of-college-roi" id="toc-finding-the-best-schools-for-your-money-a-data-driven-analysis-of-college-roi" class="nav-link" data-scroll-target="#finding-the-best-schools-for-your-money-a-data-driven-analysis-of-college-roi">Finding the Best Schools for Your Money: A Data-Driven Analysis of College ROI</a></li>
-  <li><a href="#project-title-comm-188c-homework-2-and-3-merged-same-data-keep" id="toc-project-title-comm-188c-homework-2-and-3-merged-same-data-keep" class="nav-link" data-scroll-target="#project-title-comm-188c-homework-2-and-3-merged-same-data-keep">Project Title : Comm 188C Homework 2 and 3 merged (same data) (KEEP)</a></li>
   <li><a href="#targeting-the-0.1-mitigating-emergency-department-over-utilization" id="toc-targeting-the-0.1-mitigating-emergency-department-over-utilization" class="nav-link" data-scroll-target="#targeting-the-0.1-mitigating-emergency-department-over-utilization">Targeting the 0.1%: Mitigating Emergency Department Over-Utilization</a></li>
   </ul>
 </nav>
@@ -209,7 +208,6 @@ window.Quarto = {
 <li><strong>Quantifying Viewpoint Diversity:</strong> Applied the Shannon Information-Theory Entropy formula to compute a Topic Entropy score of 2.80 and an evenness index of 0.84 within the long-form deep-dive cluster. Empirically demonstrated that despite topic distribution, the broader ecosystem isolates users into highly concentrated narrative silos.</li>
 </ol></li>
 </ul>
-<p>edit doc: read over and remove weird gap and group #</p>
 <p>
 <a class="btn btn-primary" href="assets/comm-final-report.pdf" target="_blank" role="button"> <i class="bi bi-file-earmark-pdf"></i> View Research Report (PDF) </a>
 </p>
@@ -226,65 +224,6 @@ window.Quarto = {
 <p>
 <a class="btn btn-primary" href="assets/college-roi-project.pdf" target="_blank" role="button"> <i class="bi bi-file-earmark-pdf"></i> View College ROI Analysis (PDF) </a>
 </p>
-<hr>
-</section>
-<section id="project-title-comm-188c-homework-2-and-3-merged-same-data-keep" class="level3">
-<h3 class="anchored" data-anchor-id="project-title-comm-188c-homework-2-and-3-merged-same-data-keep">Project Title : Comm 188C Homework 2 and 3 merged (same data) (KEEP)</h3>
-<ul>
-<li><p><strong>Context:</strong></p></li>
-<li><p><strong>Languages &amp; Tools:</strong> Python - <code>pandas</code>, <code>numpy</code>, <code>scikit-learn</code> (<code>TfidfVectorizer</code>, <code>KMeans</code>, <code>RandomForestClassifier</code>, <code>GridSearchCV</code>, and verification metrics), <code>scipy</code></p></li>
-<li><p><strong>Methodologies:</strong></p></li>
-<li><p><strong>Outcome &amp; Impact:</strong></p></li>
-</ul>
-<p>
-<a class="btn btn-primary" href="assets/FILE NAME" target="_blank" role="button"> <i class="bi bi-file-earmark-pdf"></i> ADDBUTTONLABEL </a>
-</p>
-<p>The only real limitation of this project is the <strong>dataset size</strong> (199 news articles). While perfect for a class assignment, ML models can overfit easily on small samples.</p>
-<p>If you want to turn this into a truly high-tier portfolio piece, try downloading a larger public dataset (like the <em>AG News Classification Dataset</em> or a larger Kaggle news dataset with thousands of rows) and run your exact same code on it. If your SBERT pipeline still hits 90%+ accuracy on a massive dataset, you have an bulletproof case study!</p>
-<p>Would you like help adapting your code to a larger dataset, or do you want to work on writing the portfolio markdown file for this next?</p>
-<p>Here is a blueprint for how you can structure this unified case study for a personal website, GitHub repository, or portfolio.</p>
-<hr>
-<p>📂 Portfolio Title Idea</p>
-<p><strong>Comparative Benchmark Study: Modern Transformers vs.&nbsp;Traditional Statistical NLP for Short-Form Text</strong></p>
-<hr>
-<p>📝 The Framework (How to Structure the Post)</p>
-<ol type="1">
-<li>Introduction &amp; Executive Summary</li>
-</ol>
-<p>Start with a high-level overview of what you did and the ultimate takeaway.</p>
-<ul>
-<li><p><strong>The Mission:</strong> Evaluate how traditional statistical NLP methods (TF-IDF) hold up against modern deep learning architectures (SBERT / Sentence Transformers) when processing short, low-context text data (news headlines).</p></li>
-<li><p><strong>The Data:</strong> 199 news articles containing titles and high-level topics.</p></li>
-<li><p><strong>The Big Takeaway:</strong> Across both supervised classification and unsupervised clustering, deep learning dense embeddings systematically crushed sparse keyword-matching, raising classification accuracy from <strong>75% to 95%</strong>, and unsupervised cluster mapping accuracy from <strong>45% to 94%</strong>.</p></li>
-</ul>
-<ol start="2" type="1">
-<li>Paradigm 1: Unsupervised Learning (Topic Discovery via K-Means)</li>
-</ol>
-<p>Explain the clustering experiment to show how you handle unlabeled data.</p>
-<ul>
-<li><p><strong>The Approach:</strong> You used <strong>K-Means Clustering</strong> (<span class="math inline">\(K=4\)</span>) to partition raw article titles without letting the models see the actual topics.</p></li>
-<li><p><strong>The Hurdle:</strong> Traditional TF-IDF struggled heavily because headlines are too short to share exact keyword matches, forcing K-Means to dump almost everything into a single massive cluster (yielding a low <strong>45% mapped accuracy</strong>).</p></li>
-<li><p><strong>The Solution:</strong> SBERT captured the underlying semantic context, enabling clean cluster separations and achieving an outstanding <strong>94% mapped accuracy</strong>.</p></li>
-<li><p><em>Include your side-by-side performance metrics table here!</em></p></li>
-</ul>
-<ol start="3" type="1">
-<li>Paradigm 2: Supervised Learning (Predictive Modeling via Random Forests)</li>
-</ol>
-<p>Transition into your predictive modeling phase to show how you handle labeled data.</p>
-<ul>
-<li><p><strong>The Approach:</strong> You built a machine learning pipeline featuring <strong>Stratified Train-Test Splitting</strong>, <strong>5-Fold Cross-Validation</strong>, and <strong>Hyperparameter Tuning (GridSearch)</strong> to predict article topics using a Random Forest Classifier.</p></li>
-<li><p><strong>The Engineering Touch:</strong> Highlight your advanced feature selection strategy—combining <strong>Chi-Square filtering</strong> with <strong>Forward Sequential Feature Selection</strong> to aggressively isolate high-impact tokens from the high-dimensional TF-IDF space.</p></li>
-<li><p><strong>The Result:</strong> Even with rigorous feature engineering, TF-IDF topped out at a <strong>75% F1-score</strong> because it couldn’t capture word relationships. SBERT effortlessly hit a <strong>95% F1-score</strong> by natively leveraging contextual deep learning weights.</p></li>
-</ul>
-<ol start="4" type="1">
-<li>Key Engineering Insights &amp; Conclusions</li>
-</ol>
-<p>End with a strong, professional conclusion that highlights your conceptual maturity.</p>
-<ul>
-<li><p><strong>Sparsity vs.&nbsp;Density:</strong> Short-form text inherently breaks keyword-dependent models like TF-IDF due to severe data sparsity. Dense embeddings are mandatory for real-world semantic search or short-text routing.</p></li>
-<li><p><strong>Production Readiness:</strong> While SBERT delivers elite accuracy, it requires higher computational overhead. This study serves as a framework for weighing the exact accuracy-versus-compute tradeoffs required in production environments.</p></li>
-</ul>
-<p>GitHub repository containing: 1. <code>README.md</code> 2. A folder named <code>/notebooks</code> containing your two cleanly commented CoLab notebooks.</p>
 <hr>
 </section>
 <section id="targeting-the-0.1-mitigating-emergency-department-over-utilization" class="level3">

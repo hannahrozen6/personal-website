@@ -7,12 +7,15 @@ about:
     - icon: envelope
       text: Email
       href: mailto:hannahrozen@ucla.edu
+    - icon: github
+      text: GitHub
+      href: https://github.com/hannahrozen6
+    - icon: file-earmark-pdf
+      text: Download Resume
+      href: assets/resume.pdf   
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/hannah-rozenbaum-764526335/  
-    - icon: file-earmark-pdf
-      text: Download Resume
-      href: assets/resume.pdf     
 ---
 
 # Welcome to my website!
@@ -42,9 +45,9 @@ At UCLA, my path covers rigorous statistical and mathematical theory, advanced s
 
 ### Hobbies & Life Outside Data Science
 
-- **The Great Outdoors:** I love staying active outside, whether hiking, skiing, paddleboarding, or playing tennis.
+- **The Great Outdoors:** I love staying active outside, whether hiking, alpine skiing, paddleboarding, or playing tennis.
 - **Urban Exploration:** I spend a lot of my free time exploring Los Angeles, often walking a few miles to discover local foodie spots, historic hotels, and parks.
-- **Unwinding:** When I'm not adventuring outside, you can usually find me solving the daily NYT games, crafting, running my Depop shop, or curating Spotify playlists.
+- **Unwinding:** When I'm not adventuring outside, you can usually find me solving the daily NYT games, running my Depop shop, or curating Spotify playlists.
 
 
 
