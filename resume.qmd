@@ -6,4 +6,4 @@ editor: visual
 
 ### 
 
-[**Click here to view my resume**](addlink)
+[**Click here to view my resume**](assets/resume.pdf)
