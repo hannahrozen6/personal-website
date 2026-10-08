@@ -22,7 +22,7 @@ about:
 
 Hi, I'm Hannah! I am a junior at UCLA studying **Statistics & Data Science**. 
 
-My professional interest lies in using data to solve complex social issues. Whether I am cleaning and analyzing messy real-world databases, deploying and auditing local AI models, or teaching foundational concepts to the next generation, I view data as a powerful tool for community impact and education.
+My professional interest lies in leveraging data science, machine learning, and quantitative research to address complex social and policy questions. Whether I am cleaning and analyzing messy real-world databases, deploying and auditing local AI models, or teaching foundational concepts to the next generation, I view data as a powerful tool for community impact and education.
 
 ------------------------------------------------------------------------
 
@@ -39,7 +39,7 @@ My professional interest lies in using data to solve complex social issues. Whet
 
 ### ️ Academic & Technical Focus
 
-At UCLA, my path covers rigorous statistical and mathematical theory, advanced software training, socio-technical evaluation, and applied execution.
+At UCLA, my path covers rigorous statistical and mathematical foundations, advanced software training, socio-technical evaluation, and applied execution.
 
 ------------------------------------------------------------------------
 
